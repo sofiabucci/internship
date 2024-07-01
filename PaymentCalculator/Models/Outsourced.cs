@@ -15,13 +15,8 @@ namespace PaymentCalculator.Model
             AddCharge = 0;
         }
 
-        private double addCharge;
-
-        public double AddCharge
-        {
-            get { return addCharge; }
-            set { addCharge = value; }
-        }
+        public double AddCharge { get; private set; }
+      
 
         protected override double CalcPayment()
         {

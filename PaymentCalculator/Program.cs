@@ -34,8 +34,17 @@ namespace PaymentCalculator
                 }
             }
 
-            var paymentController = new Controller.PaymentController();
-            paymentController.Run(employeesList,outsourcedsList);
+            Console.WriteLine("PAYMENTS:");
+            foreach (Employee emp in employeesList)
+            {
+                emp.ShowNamePayment();
+            }
+            foreach (Outsourced outs in outsourcedsList)
+            {
+                outs.ShowNamePayment();
+            }
+
+            
 
             var fileController = new Controller.FileController();
             fileController.Run(employeesList,outsourcedsList);

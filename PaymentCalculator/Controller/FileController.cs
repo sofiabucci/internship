@@ -23,7 +23,7 @@ namespace PaymentCalculator.Controller
                 Console.WriteLine("File name:");
                 string file = Console.ReadLine();
 
-                string filePath = Path.Combine(@"C:\Users\User\source\repos\PaymentCalculator\Files\", file + ".xml");
+                string filePath = Path.Combine(@"C:\Users\User\source\programmers\PaymentCalculator\Files\", file + ".xml");
 
                 EmployeesData data = new EmployeesData();
                 data.Employees = employees;

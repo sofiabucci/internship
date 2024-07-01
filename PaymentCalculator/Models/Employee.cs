@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -19,45 +20,18 @@ namespace PaymentCalculator.Model
 		}
 
 
-		private int id;
-
-		public int Id
-		{
-			get { return id; }
-			set { id = value; }
-		}
+        public int Id { get; private set; }
 
 
-		private string name;
+		public string Name { get; private set; }
 
-		public string Name
-		{
-			get { return name; }
-			set { name = value; }
-		}
+		public int Hours { get; private set; }
 
-		private int hours;
+		private double ValuePerHour { get; private set; }
 
-		public int Hours
-		{
-			get { return hours; }
-			set { hours = value; }
-		}
-
-		private double valuePerHour;
-
-		public double ValuePerHour
-		{
-			get { return valuePerHour; }
-			set { valuePerHour = value; }
-		}
-
-		private double payment;
-
-		public double Payment
-		{
-			get { return CalcPayment(); }
-		}
+		
+		public double Payment { get { return CalcPayment(); } }
+		
 
 		protected virtual double CalcPayment()
 		{

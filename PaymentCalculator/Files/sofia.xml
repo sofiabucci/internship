@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmployeesData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employees>
+    <Employee>
+      <Id>2</Id>
+      <Name>joao</Name>
+      <Hours>40</Hours>
+      <ValuePerHour>20</ValuePerHour>
+    </Employee>
+  </Employees>
+  <Outsourced>
+    <Outsourced>
+      <Id>1</Id>
+      <Name>sofia</Name>
+      <Hours>40</Hours>
+      <ValuePerHour>20</ValuePerHour>
+      <AddCharge>10</AddCharge>
+    </Outsourced>
+  </Outsourced>
+</EmployeesData>
