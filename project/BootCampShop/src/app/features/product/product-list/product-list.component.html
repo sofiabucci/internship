@@ -23,7 +23,7 @@
             <td>{{product.id}}</td>
             <td>{{product.name}}</td>
             <td>{{product.category}}</td>
-            <td>{{product.price}}</td>
+            <td>R${{product.price}}</td>
             <td>
               <a routerlink="/admin/products/edit" class="btn btn-sec" (click)="openEditModal(product)">Edit</a>
               <a routerlink="/admin/products/delete" class="btn btn-trh" (click)="deleteProduct(product)">Delete</a>
