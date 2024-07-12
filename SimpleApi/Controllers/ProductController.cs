@@ -16,32 +16,6 @@ namespace ProductAPI.Controllers
             _repository = repository;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Add(Product product)
-        {
-            var result = await _repository.Add(product);
-
-            if (!result)
-            {
-                return BadRequest();
-            }
-
-            return Ok(product);
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(Guid id)
-        {
-            var result = await _repository.Delete(id);
-
-            if (!result)
-            {
-                return NotFound();
-            }
-
-            return Ok();
-        }
-
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -66,6 +40,32 @@ namespace ProductAPI.Controllers
             }
 
             return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(Product product)
+        {
+            var result = await _repository.Add(product);
+
+            if (!result)
+            {
+                return BadRequest();
+            }
+
+            return Ok(product);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await _repository.Delete(id);
+
+            if (!result)
+            {
+                return NotFound();
+            }
+
+            return Ok();
         }
 
         [HttpPut("{id}")]

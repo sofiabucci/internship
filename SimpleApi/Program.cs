@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Project.Domain.Interfaces;
 using Project.Infrastructure.Repositories;
-using Project.Infrastructure.Context;
+using Project.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<ApplicationDataContext>(opt =>
-opt.UseInMemoryDatabase("ProductDB"));
+
+builder.Services.AddInfraService(builder.Configuration);
+
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddCors(options =>

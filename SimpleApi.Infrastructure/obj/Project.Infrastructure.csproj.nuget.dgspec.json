@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj": {}
+    "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj": {
+    "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj",
         "projectName": "Project.Domain",
-        "projectPath": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj": {
+    "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj",
         "projectName": "Project.Infrastructure",
-        "projectPath": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Infrastructure\\Project.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\programmers_estagio\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj"
+              "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\programmers_estagio\\SimpleApi.Domain\\Project.Domain.csproj"
               }
             }
           }
@@ -127,11 +127,27 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
