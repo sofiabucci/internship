@@ -14,9 +14,10 @@ namespace Project.Infrastructure
     {
         public static IServiceCollection AddInfraService(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("ProgrammersDB");
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            services.AddDbContext<ApplicationDataContext>(option => option.UseSqlServer(connectionString));
+            services.AddDbContext<ApplicationDataContext>(option => 
+                option.UseSqlServer(connectionString));
 
             return services;
         }
