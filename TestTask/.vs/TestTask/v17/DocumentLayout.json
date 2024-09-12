@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\programmers_estagio\\TestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5EEA9D1-FCE7-42C1-A37D-DFB2BE0A7C69}|TestTask.csproj|c:\\users\\user\\source\\programmers_estagio\\testtask\\productunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5EEA9D1-FCE7-42C1-A37D-DFB2BE0A7C69}|TestTask.csproj|solutionrelative:productunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5EEA9D1-FCE7-42C1-A37D-DFB2BE0A7C69}|TestTask.csproj|c:\\users\\user\\source\\programmers_estagio\\testtask\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5EEA9D1-FCE7-42C1-A37D-DFB2BE0A7C69}|TestTask.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\programmers_estagio\\TestTask\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\source\\programmers_estagio\\TestTask\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T22:08:15.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\programmers_estagio\\TestTask\\ProductUnitTest.cs",
+              "RelativeDocumentMoniker": "ProductUnitTest.cs",
+              "ToolTip": "C:\\Users\\User\\source\\programmers_estagio\\TestTask\\ProductUnitTest.cs",
+              "RelativeToolTip": "ProductUnitTest.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDYAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:30:14.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

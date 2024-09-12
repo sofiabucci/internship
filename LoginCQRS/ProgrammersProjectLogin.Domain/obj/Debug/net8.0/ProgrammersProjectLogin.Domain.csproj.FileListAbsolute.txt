@@ -1,0 +1,15 @@
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.csproj.AssemblyReference.cache
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.AssemblyInfo.cs
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.sourcelink.json
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\bin\Debug\net8.0\ProgrammersProjectLogin.Domain.deps.json
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\bin\Debug\net8.0\ProgrammersProjectLogin.Domain.dll
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\bin\Debug\net8.0\ProgrammersProjectLogin.Domain.pdb
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.dll
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\refint\ProgrammersProjectLogin.Domain.dll
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.pdb
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ref\ProgrammersProjectLogin.Domain.dll
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\bin\Debug\net8.0\ProgrammersProjectLogin.Domain.runtimeconfig.json
+C:\Users\User\source\programmers_estagio\ProgrammersProject\ProgrammersProject.Login\ProgrammersProjectLogin.Domain\obj\Debug\net8.0\ProgrammersProjectLogin.Domain.genruntimeconfig.cache

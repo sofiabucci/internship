@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LoginCQRS",
+    "\\LoginCQRS\\ProgrammersProjectLogin.Infrastructure"
   ],
-  "SelectedNode": "\\programmers_estagio",
+  "SelectedNode": "\\LoginCQRS\\ProgrammersProjectLogin.Infrastructure\\Context",
   "PreviewInSolutionExplorer": false
 }

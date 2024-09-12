@@ -1,0 +1,2 @@
+C:\Users\User\source\programmers_estagio\LSP\obj\Debug\LSP.csproj.AssemblyReference.cache
+C:\Users\User\source\programmers_estagio\LSP\obj\Debug\LSP.csproj.CoreCompileInputs.cache
